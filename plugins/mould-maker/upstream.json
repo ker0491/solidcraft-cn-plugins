@@ -1,0 +1,7 @@
+{
+  "id": "mould-maker",
+  "repo": "Mechmoth/solidcraft-mould-maker",
+  "asset_pattern": "mould-maker-0.5.2.zip",
+  "package_dir": "",
+  "translation": "translations/mould-maker.zh-CN.json"
+}

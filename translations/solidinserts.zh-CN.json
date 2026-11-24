@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "locale": "zh-CN",
+    "revision": 1,
+    "upstream": "NoOneExceptEnderk/SolidInserts"
+  },
+  "strings": {
+    "name": "热熔螺母座",
+    "description": "在已有孔的圆形边缘生成热熔螺纹螺母的座孔。",
+    "entries.applica.input_schema.hole_picks.title": "孔边缘",
+    "entries.applica.input_schema.hole_picks.description": "选择螺母要装入一侧的圆形孔边缘。",
+    "entries.applica.input_schema.serie.title": "类型",
+    "entries.applica.input_schema.serie.description": "M3、M4、M5 使用短版；M3 可用 VORON M3 × 5 × 4。",
+    "entries.applica.input_schema.filettatura.title": "螺纹规格",
+    "entries.applica.input_schema.filettatura.description": "自动模式会在 ±0.05 mm 内匹配孔的公称直径。间隙孔请选择螺钉尺寸。",
+    "entries.applica.input_schema.compensazione_mm.title": "直径补偿",
+    "entries.applica.input_schema.compensazione_mm.description": "座孔直径的调整量。使用 0 表示目录标准尺寸。"
+  }
+}

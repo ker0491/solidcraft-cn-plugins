@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "locale": "zh-CN",
+    "revision": 1,
+    "upstream": "JakeMathews/mesh-solidify"
+  },
+  "strings": {
+    "name": "网格实体化",
+    "description": "将破损的网格实体（孔洞、开放壳体、重叠）重建为单一水密、可打印的实体，并作为新实体添加。",
+    "entries.solidify.input_schema.body.title": "实体",
+    "entries.solidify.input_schema.body.description": "要重建的网格实体。留空使用选中的实体。",
+    "entries.solidify.input_schema.scale.title": "缩放",
+    "entries.solidify.input_schema.scale.description": "结果的统一缩放比例：0.1 表示 10%。",
+    "entries.solidify.input_schema.voxel.title": "细节（mm）",
+    "entries.solidify.input_schema.voxel.description": "输出中的网格间距（mm）。0 自动选择在体素预算内最细的网格。",
+    "entries.solidify.input_schema.min_feature.title": "加厚（mm）",
+    "entries.solidify.input_schema.min_feature.description": "将表面向外偏移，使薄壁在切片时能保留。",
+    "entries.solidify.input_schema.iso.title": "填充阈值",
+    "entries.solidify.input_schema.iso.description": "判断内部的绕数阈值。越低填充越多。",
+    "entries.solidify.input_schema.target_faces.title": "三角面数",
+    "entries.solidify.input_schema.target_faces.description": "输出三角面预算（SolidCraft 0.41 从插件接受约 30,000 个）。",
+    "entries.solidify.input_schema.fair_tau.title": "补片平滑",
+    "entries.solidify.input_schema.fair_tau.description": "距输入超过该体素数的顶点视为孔洞补片并做平滑。0 表示关闭。",
+    "entries.solidify.input_schema.fair_grow.title": "平滑环数",
+    "entries.solidify.input_schema.fair_grow.description": "在每个补片周围额外平滑的环数。",
+    "entries.solidify.input_schema.max_voxels.title": "体素预算",
+    "entries.solidify.input_schema.max_voxels.description": "“细节”为 0 时的最大网格。越大越精细但越慢；SolidCraft 0.41 在固定工作量后停止插件，此处约为 2,000,000。",
+    "entries.inspect.input_schema.body.title": "实体",
+    "entries.inspect.input_schema.body.description": "要检查的网格实体。留空使用选中的实体。",
+    "entries.inspect.input_schema.scale.title": "缩放"
+  }
+}

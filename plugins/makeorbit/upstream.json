@@ -1,0 +1,7 @@
+{
+  "id": "makeorbit",
+  "repo": "645DF/MakeOrbit-SolidCraft",
+  "asset_pattern": "makeorbit-0.2.0.zip",
+  "package_dir": "",
+  "translation": "translations/makeorbit.zh-CN.json"
+}

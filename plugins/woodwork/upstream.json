@@ -1,0 +1,7 @@
+{
+  "id": "woodwork",
+  "repo": "TomasDJo/solidcraft-woodwork",
+  "asset_pattern": "woodwork-0.4.0.zip",
+  "package_dir": "",
+  "translation": "translations/woodwork.zh-CN.json"
+}

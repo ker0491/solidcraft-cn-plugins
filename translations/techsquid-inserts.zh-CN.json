@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "locale": "zh-CN",
+    "revision": 1,
+    "upstream": "TechSquidTV/SolidCraft-Plugins"
+  },
+  "strings": {
+    "name": "热熔螺母",
+    "description": "基于 CNC Kitchen 的热熔螺母规格。选择草图点或圆：每处生成螺母底孔及螺母本体。",
+    "entries.make-insert.input_schema.create.title": "创建内容",
+    "entries.make-insert.input_schema.create.description": "孔和螺母：在每个选定点下方的零件上钻孔，并将螺母作为独立组件放置到每个点。仅孔：只钻孔，不添加螺母。两者都需要选择点或圆。仅螺母可在有或没有选择时使用：未选择时螺母位于原点。",
+    "entries.make-insert.input_schema.custom_diameter.title": "自定义直径",
+    "entries.make-insert.input_schema.custom_diameter.description": "可选。滚花点之间的外径。留空则使用所选尺寸的外径。",
+    "entries.make-insert.input_schema.custom_length.title": "自定义长度",
+    "entries.make-insert.input_schema.custom_length.description": "可选。螺母的总长。留空则使用所选尺寸的长度。",
+    "entries.make-insert.input_schema.custom_thread.title": "自定义螺纹",
+    "entries.make-insert.input_schema.custom_thread.description": "可选。用螺钉规格替代所选尺寸的孔螺纹，例如 M8x1。螺母必须大于该螺纹。",
+    "entries.make-insert.input_schema.hole_adjust.title": "孔径调整",
+    "entries.make-insert.input_schema.hole_adjust.description": "加到孔直径上的补偿量。打印出的孔通常偏小：以 0.1 mm 为步长增大，直到适合你的打印机。",
+    "entries.make-insert.input_schema.hole_depth.title": "孔深",
+    "entries.make-insert.input_schema.hole_depth.description": "盲孔为螺母长度加 1 mm。通孔会钻穿零件；使用时请将草图放在零件表面上。",
+    "entries.make-insert.input_schema.hole_type.title": "孔类型",
+    "entries.make-insert.input_schema.hole_type.description": "热熔：用于将螺母熔入打印件的直孔。胶粘：用于树脂打印件的台阶孔，列出 M2.5 到 1/4-20 共 8 种规格。",
+    "entries.make-insert.input_schema.placement.title": "放置位置",
+    "entries.make-insert.input_schema.placement.description": "在视图中选择要放置螺母的草图点或圆。点击圆或圆内部可取圆心。每处生成螺母底孔，若创建内容允许则同时放置螺母。未选择任何对象时，在原点放置一个独立螺母。",
+    "entries.make-insert.input_schema.size.title": "尺寸",
+    "entries.make-insert.input_schema.size.description": "CNC Kitchen 螺母规格：螺纹与螺母长度。直径、长度和螺纹由所选规格一并确定。",
+    "entries.make-insert.input_schema.thread_modeled.title": "建模螺纹",
+    "entries.make-insert.input_schema.thread_modeled.description": "切削内螺纹。关闭时保留装饰螺纹，重建更快。统一螺纹和管螺纹必须关闭此项。"
+  }
+}

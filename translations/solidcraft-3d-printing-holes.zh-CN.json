@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "locale": "zh-CN",
+    "revision": 1,
+    "upstream": "SB97/solidcraft-3d-printing-holes"
+  },
+  "strings": {
+    "name": "3D 打印孔",
+    "description": "专为 3D 打印设计的孔。水滴形：选择草图圆后运行，每个孔上方会生成直径百分之几的小尖顶，防止水平孔顶部下垂。未选择对象时会绘制一个示例孔。",
+    "entries.teardrop.input_schema.apply_to_all.title": "应用于草图中的所有圆",
+    "entries.teardrop.input_schema.apply_to_all.description": "关闭：仅转换选中的草图圆。开启：转换当前草图中所有非构造圆，无需选择。",
+    "entries.teardrop.input_schema.up.title": "尖端方向",
+    "entries.teardrop.input_schema.up.description": "尖端的朝向。world +Z（打印向上）= 世界 +Z 投影到草图平面，即常规打印方向；sketch +X / -X / +Y / -Y = 草图自身的坐标轴。",
+    "entries.teardrop.input_schema.warn_horizontal.title": "水平草图时提示",
+    "entries.teardrop.input_schema.warn_horizontal.description": "在水平草图上，若尖端方向为 world +Z，世界 +Z 无法给出方向，尖端会指向草图 +Y。出现此情况时给出提示（若零件本来就以其他方向打印，可关闭）。",
+    "entries.teardrop.input_schema.tip_extra_d.title": "圆上方尖端（直径百分比）",
+    "entries.teardrop.input_schema.tip_extra_d.description": "尖端高出圆的距离，按直径的百分比计：孔的顶部会按此百分比增高。几个百分点即可弥补打印孔顶部下垂。",
+    "entries.teardrop.input_schema.tip_height.title": "覆盖：尖端距圆心",
+    "entries.teardrop.input_schema.tip_height.description": "留空：尖端由“圆上方尖端（直径百分比）”决定。填写：改用从圆心（不是从圆）到尖端的距离，单位 mm，或表达式，其中 r 为半径、d 为直径，例如 d/2 + 0.3 mm，经典 45° 水滴孔可用 d*sqrt(2)/2。"
+  }
+}

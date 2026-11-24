@@ -1,0 +1,7 @@
+{
+  "id": "gen-design-engine",
+  "repo": "LudaLunizz/Generative-design-plugin-for-SolidCraft",
+  "asset_pattern": "gen-design-engine-0.12.0.zip",
+  "package_dir": "",
+  "translation": "translations/gen-design-engine.zh-CN.json"
+}

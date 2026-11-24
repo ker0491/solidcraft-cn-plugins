@@ -1,0 +1,213 @@
+{
+  "format": 1,
+  "plugins": {
+    "solidcraft-gears": {
+      "tag": "v0.1.1",
+      "asset": "solidcraft-gears-0.1.1.zip",
+      "asset_sha256": "aa794cc6458480d7c664c70a81c5d900c3ddda5b2df7493f70004356f77d0097",
+      "manifest_sha256": "2128814f8cdbc5790e517911db6d00425e2447cb5c43b1a3b1eb959d42c335c4",
+      "wasm_sha256": "7c78c0f703d6ceccabe17c5500ea21c3f2750866fe7f77d8a06009b7d54f71bb",
+      "checked_at": "2026-11-24T06:09:04+00:00"
+    },
+    "custom-threads": {
+      "tag": "v0.3.0",
+      "asset": "custom-threads.zip",
+      "asset_sha256": "3b10bcb77b1daa78146a1d2d86d46af553fa0a5858b92694d96c44dcbb315614",
+      "manifest_sha256": "502734a53bfd0c97ab8b18243a6573e19066a36ab3dbf59eec4ac5e6e98d4322",
+      "wasm_sha256": "379cefc8dcf5e19529ad5abea05a550385571afe361a62a227344a19a2bae2de",
+      "checked_at": "2026-11-24T06:08:04+00:00"
+    },
+    "filament-swatch": {
+      "tag": "v0.3.1",
+      "asset": "filament-swatch-0.3.1.zip",
+      "asset_sha256": "f80be643ee00c7d64ab703df1f095957544b3a75f30a02d3eb9430e3b4648dae",
+      "manifest_sha256": "21de488905de2f9aaa8aab50070e6a57d895dfcdb8f3061dc4f4cca9756a542b",
+      "wasm_sha256": "3c223836bfb08666ff1beec4dcdda07d512b728142f5d87aebb0b71b27f63f31",
+      "checked_at": "2026-11-24T06:08:08+00:00"
+    },
+    "gear-generator": {
+      "tag": "v0.4.0",
+      "asset": "gear-generator-0.4.0.zip",
+      "asset_sha256": "3c313895dfcb352d092e984d7e2b7cb4c9eefb36602352fc23cbcf484874d52d",
+      "manifest_sha256": "0353ea226c4da82bd068f4a6df85fb3b5a9eee1809c7d737ff40dc03ca28772d",
+      "wasm_sha256": "d6c8b8a3179f5e332d18e95ec73315204764b7d8210bc1c5c759da5ef18a8ac5",
+      "checked_at": "2026-11-24T06:08:12+00:00"
+    },
+    "gen-design-engine": {
+      "tag": "v0.12.0",
+      "asset": "gen-design-engine-0.12.0.zip",
+      "asset_sha256": "3abc175ca7d7c3a18319e261ddd37e1a83eb9bd019b18d6297b210b2c1f499ef",
+      "manifest_sha256": "0f5e436b53480345fdd11416c65874becad08615c9ab9d3e93134307e86c8509",
+      "wasm_sha256": "cab5c3e6db0387221ce8e890e8f34797b443f86d23fb106e335b615df138ce5b",
+      "checked_at": "2026-11-24T06:08:18+00:00"
+    },
+    "gridfinity": {
+      "tag": "v1.5.0",
+      "asset": "gridfinity-1.5.0.zip",
+      "asset_sha256": "f78ffbebba6622b6db195be6821cc47e518cde3e7b5e43ddf619531b267d6178",
+      "manifest_sha256": "89e92790641e9cb34399744f48d255fcd3d6e5290d7192bc068856c181548988",
+      "wasm_sha256": "f8db64526346916ca03fff67de83aa8f870923b5edb4ef532e4f3eed27d5c19c",
+      "checked_at": "2026-11-24T06:08:26+00:00"
+    },
+    "iso-sheet": {
+      "tag": "v1.1.0",
+      "asset": "iso-sheet.zip",
+      "asset_sha256": "218bee916ec405df7ba491c88dbd90c86eb48beae630fd9a110a315f71ffe2fa",
+      "manifest_sha256": "0019c9ccd20d8fe3bb8b53997b808b0fc62270981634b7070739ed98a430c60c",
+      "wasm_sha256": "778290e60d73633860bbd2a185e77a43932831602d4965f1da772a2ee52f2514",
+      "checked_at": "2026-11-24T06:08:32+00:00"
+    },
+    "makeorbit": {
+      "tag": "v0.2.0",
+      "asset": "makeorbit-0.2.0.zip",
+      "asset_sha256": "060d0928a783871d90b75bb2ce5f88140eaea5b98a0d5e44a0a37eee3bbb37e1",
+      "manifest_sha256": "40666b175bf0e921b5f3e3084958cbea5e16504bf8242ead52388b315330019a",
+      "wasm_sha256": "832ea09b301af7d53b07fb05e980084a12090c60fc4d96d8f7347d9a1a9c52f6",
+      "checked_at": "2026-11-24T06:08:38+00:00"
+    },
+    "makeorbit-cnc-studio": {
+      "tag": "v0.2.0",
+      "asset": "makeorbit-cnc-studio-0.2.0.zip",
+      "asset_sha256": "2c8159efefa0ea66fa083864adea1e9fb19598e24776e3dfa0be27f879aa4680",
+      "manifest_sha256": "e7cc255aee1be3dd7f43ab8764f6924d2113218a98530c3b8d05aaa1ea09720a",
+      "wasm_sha256": "832ea09b301af7d53b07fb05e980084a12090c60fc4d96d8f7347d9a1a9c52f6",
+      "checked_at": "2026-11-24T06:08:41+00:00"
+    },
+    "mesh-solidify": {
+      "tag": "v0.2.0",
+      "asset": "mesh-solidify-plugin.zip",
+      "asset_sha256": "a0689f613309f2c9e0c639cc176d7882b0be93da56137cef3c1b46d501088e72",
+      "manifest_sha256": "a314ab44e3bf296c3889291e2e6691f2032e117efaf88913864b42bf8e2270c2",
+      "wasm_sha256": "3b541b6755aed5a01050b71616862d733a2b3b21cba9dea0c8b186acbf39ce6c",
+      "checked_at": "2026-11-24T06:08:46+00:00"
+    },
+    "mould-maker": {
+      "tag": "v0.5.2",
+      "asset": "mould-maker-0.5.2.zip",
+      "asset_sha256": "e03bbf90718f5fbafeef95441cad4e3febeb63bb71fe33c9b02968953e49074e",
+      "manifest_sha256": "5d58e754e6bf2bc305cbd2fa6841eb857e84df8876c6fd74705888919699615b",
+      "wasm_sha256": "f2c7a87ac23ff4e1864b037432dcd7e7ab04069a7a5fc5ee305c62b5df6f8b95",
+      "checked_at": "2026-11-24T06:08:50+00:00"
+    },
+    "solidcraft-3d-printing-holes": {
+      "tag": "v0.2.1",
+      "asset": "solidcraft-3d-printing-holes.zip",
+      "asset_sha256": "472b1a6238f890e964394bf5d59bf0a459034d2685767fe0b1362101db1b3c9f",
+      "manifest_sha256": "95e933787b2605f3ea65549c1ff9b0dba1db8a1ea360776705800b13ebed39b5",
+      "wasm_sha256": "f9ad83ccfc392af3ec65c0155112c2e5d21559c1cb445fd440adc43bb3a8dad1",
+      "checked_at": "2026-11-24T06:08:57+00:00"
+    },
+    "solidcraft-aprilcube": {
+      "tag": "v0.4.0",
+      "asset": "solidcraft-aprilcube-0.4.0.zip",
+      "asset_sha256": "cec431349cf5db0dfe178655e731acb53746b778bb6ff0d409804709a5a2c847",
+      "manifest_sha256": "034e85a10b1486dd0b4e537a60a7abed4376b15a43c09c9ae5a69cb1e80f637b",
+      "wasm_sha256": "41b43e644f0f9a0179ca7999b69c3d4f44726bcc30d782af3e1f50a7ddfa3228",
+      "checked_at": "2026-11-24T06:09:02+00:00"
+    },
+    "solidcraft-honeycomb": {
+      "tag": "v0.1.0",
+      "asset": "solidcraft-honeycomb.zip",
+      "asset_sha256": "8f80ead530efe2f58f9df6ee2385f66e8911cb6f379a15e0f747b50d41c72cbb",
+      "manifest_sha256": "78604f7210c32fd92449a315163ba6b97ac699deb4b51d788265c009d1d492c7",
+      "wasm_sha256": "a1b3752bea840805a65d5682816c07639a43882bda66aba7d990e519093c5807",
+      "checked_at": "2026-11-24T06:09:12+00:00"
+    },
+    "solidcraft-laserjoints": {
+      "tag": "Plugin",
+      "asset": "solidcraft-laserjoints.zip",
+      "asset_sha256": "c60c98cdb7c22bcc050bee2a4f8151bcb8e6fd24958e7975c8d5cea46a4df810",
+      "manifest_sha256": "6882b75b2ddaa934534e5232f26b24350c02c798b335143220e15f751dcf49de",
+      "wasm_sha256": "bb2597fb9acb7f41255870389d02bcf5c325b4eb5d3ab72406fadb2a59190d24",
+      "checked_at": "2026-11-24T06:09:15+00:00"
+    },
+    "solidinserts": {
+      "tag": "v1.2.0",
+      "asset": "solidinserts-1.2.0.zip",
+      "asset_sha256": "eefb3119e58e3fcbff324b01c6783954a3d8b94bc1cb4fa91b565bf5eb600c1e",
+      "manifest_sha256": "a4ab7377fda7664a3b6d99aa40ccc24be86bc0aeca2f6ce88d3ddd983ec8dd51",
+      "wasm_sha256": "905673617b2cedc48e2b9437413e98b44cd72d7014b6b38489a0a9e54749de58",
+      "checked_at": "2026-11-24T06:09:22+00:00"
+    },
+    "sw2sc": {
+      "tag": "v0.17.3",
+      "asset": "sw2sc-0.17.3.zip",
+      "asset_sha256": "d263dac59d3fff2908300c7ea17336ce0d2ffb4ff554697dc46b18f64ff89197",
+      "manifest_sha256": "16b0bd6369e926b89cc7495f4cede987009e4305ae209decfb3cf06c632e5149",
+      "wasm_sha256": "eb483c9ad28e391974df01cbed4b94b91d668ba6a8aa7ae749317014e06bc2aa",
+      "checked_at": "2026-11-24T06:09:32+00:00"
+    },
+    "techsquid-bearings": {
+      "tag": "v0.3.0",
+      "asset": "techsquid-bearings-0.3.0.zip",
+      "asset_sha256": "df55e878d3adfa87cf4626c2793c6776812926132d015ad9499dbec3e9820524",
+      "manifest_sha256": "e6771c5aac0f1f35dd662b7eaa1dd085bcca72268ee80e8d2a9a91564fbdca49",
+      "wasm_sha256": "09e469cb5ff3c9461c31d4f4d7b81607dd740a169dec9d425eefab7c5bea59bc",
+      "checked_at": "2026-11-24T06:09:42+00:00"
+    },
+    "techsquid-extrusions": {
+      "tag": "v0.3.0",
+      "asset": "techsquid-extrusions-0.3.0.zip",
+      "asset_sha256": "9276a2e707f4c7ca30269a694db53d11a9557a0dedc24178d902f7ea658a5a7f",
+      "manifest_sha256": "cf18253cd7d7491949fc85a7b048cf3871d274dddd4526103f638e7eb13bca45",
+      "wasm_sha256": "02af01905d8f19588f6ab19c544d8b5cbc4d4f184942f3f7d36406d8ea10b1a9",
+      "checked_at": "2026-11-24T06:09:47+00:00"
+    },
+    "techsquid-inserts": {
+      "tag": "v0.3.0",
+      "asset": "techsquid-inserts-0.3.0.zip",
+      "asset_sha256": "2f8792c1d1d1869ccc02df5ced91f0f7ab4e8e945cbfe5369964317d065b7c9b",
+      "manifest_sha256": "e77e07f33fe3d04f3ace769eefd21bb5fa6707b753c39f60011cb66fd417b798",
+      "wasm_sha256": "188bcc032a938779dfcc58e61bc14cb3b9dd585a844ba052bc9e14a103685ddc",
+      "checked_at": "2026-11-24T06:09:52+00:00"
+    },
+    "techsquid-nuts": {
+      "tag": "v0.3.0",
+      "asset": "techsquid-nuts-0.3.0.zip",
+      "asset_sha256": "39a0c27560d910216a0837634af7abe2844e7a3541d0ac7bbd7894b454f2ea2f",
+      "manifest_sha256": "6341981fb694bae4ecdad5ea6468d59e8d4e4b1be292c8714fd550866de9b2b6",
+      "wasm_sha256": "e0104ab390e26f0f1bef1796dcae59c184179553b591d8354923edfed025940e",
+      "checked_at": "2026-11-24T06:10:10+00:00"
+    },
+    "techsquid-screws": {
+      "tag": "v0.3.0",
+      "asset": "techsquid-screws-0.3.0.zip",
+      "asset_sha256": "47d1cca6c303b640c7067662398172c577b80adb62db6f4cd12779d095fdcc90",
+      "manifest_sha256": "186c855e46a2261dacb18a610165ea648409334fc1e294680cd88de80ff9c777",
+      "wasm_sha256": "c242e207757dd989a3fac201c0c8cc78348c87be6de7e04188710351de8a26d0",
+      "checked_at": "2026-11-24T06:10:16+00:00"
+    },
+    "techsquid-v-wheels": {
+      "tag": "v0.3.0",
+      "asset": "techsquid-v-wheels-0.3.0.zip",
+      "asset_sha256": "45d837f932f2a925b1c5803ec74e85458aecd0a9f62927f54b761166f2e984eb",
+      "manifest_sha256": "ed4b335a185fcf3d290a5f0b35c8f6ae7a1ab7478a1e22e3ce81420c9b647981",
+      "wasm_sha256": "b2eda6160a877d9331eb659dd091e8d9178fdc8ea2d541b1828fd63247d075f6",
+      "checked_at": "2026-11-24T06:10:21+00:00"
+    },
+    "wood-joinery": {
+      "tag": "v0.12.0",
+      "asset": "wood-joinery-en.zip",
+      "asset_sha256": "4707963979e40fb1514f9ae53ec8fc92c2bd1a796faa7d4d5f0b46ab2f0d91d0",
+      "manifest_sha256": "28b05f5db482f8994a91c1adddf58993daa47a723d86c3106e9fd9f7dbc16135",
+      "wasm_sha256": "53f0a8f9d244b626153b52cf928c32acf378c4851d81791c2f79ce9280cec876",
+      "checked_at": "2026-11-24T06:10:37+00:00"
+    },
+    "woodwork": {
+      "tag": "v0.4.0",
+      "asset": "woodwork-0.4.0.zip",
+      "asset_sha256": "5a1d1598ba665bb35a7e78a219d6afe6ea80991232fdff894c51a6fcc0d54db6",
+      "manifest_sha256": "dc03e7cb6d8db339aaa922098c46e9c6d57e60b884d297cfea6a54cd23f0f7dc",
+      "wasm_sha256": "a5e606c7d7ffc75f4959fcfa76062d70a48144039cf70884cd567ef9714101d1",
+      "checked_at": "2026-11-24T06:10:40+00:00"
+    },
+    "timber": {
+      "tag": "0.1.1",
+      "asset": "timber-0.1.1-source.zip",
+      "asset_sha256": "f13d9dc4a7c2db6973b05762e5bce9fc9517624201067ef0c8e117c82ec8e8de",
+      "manifest_sha256": "9a242cba8743c52015392dc36f4b8c487e0f61ba5cf06bc39fc270832f22c09b",
+      "wasm_sha256": "af9121f05862b9a3cbd7232adbbfaccacda7c9b5f126215bb9a3006d1ae9ac27",
+      "checked_at": "2026-11-24T06:14:41+00:00"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "locale": "zh-CN",
+    "revision": 1,
+    "upstream": "645DF/MakeOrbit-SolidCraft"
+  },
+  "strings": {
+    "name": "发送到 MakeOrbit CNC Studio",
+    "description": "将设计以 STEP 格式发送到 MakeOrbit CNC Studio（在对方程序中确认接收）。",
+    "entries.an-cnc-studio.input_schema.name.title": "导出名称",
+    "entries.an-cnc-studio.input_schema.name.description": "在应用中显示该导出的名称",
+    "entries.an-cnc-studio.input_schema.body_names.title": "实体（留空 = 全部）",
+    "entries.an-cnc-studio.input_schema.body_names.description": "实体名称，用逗号分隔"
+  }
+}

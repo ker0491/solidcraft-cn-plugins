@@ -1,0 +1,7 @@
+{
+  "id": "mesh-solidify",
+  "repo": "JakeMathews/mesh-solidify",
+  "asset_pattern": "mesh-solidify-plugin.zip",
+  "package_dir": "",
+  "translation": "translations/mesh-solidify.zh-CN.json"
+}

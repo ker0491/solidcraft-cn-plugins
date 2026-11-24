@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "locale": "zh-CN",
+    "revision": 1,
+    "upstream": "Xusr404/solidcraft-honeycomb-plugin"
+  },
+  "strings": {
+    "name": "蜂窝与六边形生成器",
+    "description": "在选定的草图区域内填充最多 250 个单元。按 Esc 结束当前工具，再按住 Shift 点击区域后打开蜂窝工具。",
+    "entries.generate.input_schema.orientation.title": "朝向",
+    "entries.generate.input_schema.orientation.description": "平顶：上下边为水平线。尖顶：顶部有一个顶点。",
+    "entries.generate.input_schema.across_flats_mm.title": "六边形尺寸",
+    "entries.generate.input_schema.across_flats_mm.description": "每个六边形平行边之间的距离。",
+    "entries.generate.input_schema.gap_mm.title": "单元间隙",
+    "entries.generate.input_schema.gap_mm.description": "边缘之间的距离。范围为 0.05 mm 到六边形尺寸的四倍。",
+    "entries.generate.input_schema.rotation_deg.title": "图案旋转",
+    "entries.generate.input_schema.rotation_deg.description": "在选定边界内旋转六边形网格。",
+    "entries.generate.input_schema.trim_cells_at_boundary.title": "在边界处裁剪单元",
+    "entries.generate.input_schema.trim_cells_at_boundary.description": "开启：保留裁剪后的边界单元。关闭：只保留完整六边形。两者都使用相同的网格锚点和 X/Y 偏移。裁剪后的边缘按当前尺寸和间隙固定。",
+    "entries.generate.input_schema.anchor_mode.title": "图案锚点",
+    "entries.generate.input_schema.anchor_mode.description": "中心和选定草图点按六边形的中心定位。角点锚点在形状允许时，将六边形与填充边界的两侧对齐。正的内缩值使用内缩后的边界。",
+    "entries.generate.input_schema.offset_x_mm.title": "网格 X 偏移",
+    "entries.generate.input_schema.offset_x_mm.description": "在草图坐标中，将网格从锚点向右移动。0 mm 表示无 X 偏移。",
+    "entries.generate.input_schema.offset_y_mm.title": "网格 Y 偏移",
+    "entries.generate.input_schema.offset_y_mm.description": "在草图坐标中，将网格从锚点向上移动。0 mm 表示无 Y 偏移。",
+    "entries.generate.input_schema.outline_inset_mm.title": "内缩宽度",
+    "entries.generate.input_schema.outline_inset_mm.description": "0 mm 表示使用原始轮廓。输入至少 0.01 mm 可绘制闭合的内缩轮廓并在其中填充。"
+  }
+}

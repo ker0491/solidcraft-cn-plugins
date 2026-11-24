@@ -1,0 +1,7 @@
+{
+  "id": "wood-joinery",
+  "repo": "WilliamHJKL/solidcraft-wood-joinery",
+  "asset_pattern": "wood-joinery-en.zip",
+  "package_dir": "",
+  "translation": "translations/wood-joinery.zh-CN.json"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "techsquid-nuts",
+  "repo": "TechSquidTV/SolidCraft-Plugins",
+  "asset_pattern": "techsquid-nuts-0.3.0.zip",
+  "package_dir": "",
+  "translation": "translations/techsquid-nuts.zh-CN.json"
+}

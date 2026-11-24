@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "locale": "zh-CN",
+    "revision": 1,
+    "upstream": "645DF/MakeOrbit-SolidCraft"
+  },
+  "strings": {
+    "name": "发送到 MakeOrbit",
+    "description": "将设计连同源文件以 STEP/STL/3MF 格式发送到 MakeOrbit（在对方程序中确认归档）。",
+    "entries.an-makeorbit.input_schema.name.title": "导出名称",
+    "entries.an-makeorbit.input_schema.name.description": "在应用中显示该导出的名称",
+    "entries.an-makeorbit.input_schema.body_names.title": "实体（留空 = 全部）",
+    "entries.an-makeorbit.input_schema.body_names.description": "实体名称，用逗号分隔",
+    "entries.an-makeorbit.input_schema.step.title": "STEP",
+    "entries.an-makeorbit.input_schema.stl.title": "STL（二进制）",
+    "entries.an-makeorbit.input_schema.stl_ascii.title": "STL（ASCII）",
+    "entries.an-makeorbit.input_schema.threemf.title": "3MF",
+    "entries.an-makeorbit.input_schema.design.title": "一并发送 SolidCraft 源文件",
+    "entries.an-makeorbit.input_schema.project.title": "MakeOrbit 中的项目（可选）"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "locale": "zh-CN",
+    "revision": 1,
+    "upstream": "jcar01/solidcraft-plugin-iso-sheet"
+  },
+  "strings": {
+    "name": "等轴测制造图",
+    "description": "将当前设计中的每个实体投影为真实等轴测视图，用深度缓冲消除隐藏线，并输出带尺寸的 ANSI B 制造图 SVG：标题栏、物料清单、参数表与注释。",
+    "entries.sheet.input_schema.body_names.title": "实体",
+    "entries.sheet.input_schema.body_names.description": "要绘制的实体名称，用逗号分隔。留空：设计中的所有实体。动态实体选择器需要 SolidCraft 表单支持（issue #16274）。",
+    "entries.sheet.input_schema.hidden.title": "隐藏线",
+    "entries.sheet.input_schema.hidden.description": "被遮挡的边用虚线绘制。",
+    "entries.sheet.input_schema.tolerance.title": "弦公差（mm）",
+    "entries.sheet.input_schema.tolerance.description": "用于视图及其隐藏线遮罩的网格弦公差。",
+    "entries.sheet.input_schema.scale.title": "比例",
+    "entries.sheet.input_schema.scale.description": "图纸比例。自动：选择能放进图纸的最大标准比例。",
+    "entries.sheet.input_schema.title.title": "图纸标题",
+    "entries.sheet.input_schema.dwg_no.title": "图号",
+    "entries.sheet.input_schema.date.title": "日期",
+    "entries.sheet.input_schema.date.description": "图纸日期，格式 YYYY-MM-DD。留空：当天日期（UTC）。",
+    "entries.sheet.input_schema.notes.title": "注释",
+    "entries.sheet.input_schema.notes.description": "打印在图纸上的注释，用 ';' 分隔。留空：无。",
+    "entries.sheet.input_schema.output.title": "SVG 写入位置",
+    "entries.sheet.input_schema.output.description": "SVG 文件名，或以 / 或 \\ 结尾的文件夹路径，位于授予插件的文件夹内（授权：output）。留空：在结果中返回 SVG。浏览按钮需要 SolidCraft 表单支持（issue #16274）。",
+    "entries.sheet.input_schema.inline.title": "在结果中返回 SVG"
+  }
+}

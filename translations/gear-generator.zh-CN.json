@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "locale": "zh-CN",
+    "revision": 1,
+    "upstream": "pro-d-e-v/solidcraft-plugin-gear"
+  },
+  "strings": {
+    "name": "齿轮生成器",
+    "description": "在原点生成渐开线圆柱齿轮：使用普通草图与拉伸，设计文件无需插件即可打开。",
+    "entries.gear.input_schema.teeth.title": "齿数",
+    "entries.gear.input_schema.teeth.description": "齿轮上的齿数。",
+    "entries.gear.input_schema.module.title": "模数",
+    "entries.gear.input_schema.module.description": "模数：分度圆直径 = 模数 × 齿数。",
+    "entries.gear.input_schema.pressure_angle.title": "压力角",
+    "entries.gear.input_schema.pressure_angle.description": "分度圆上的压力角。常用值：14.5、20 和 25。",
+    "entries.gear.input_schema.thickness.title": "齿圈厚度",
+    "entries.gear.input_schema.thickness.description": "齿圈宽度，即齿轮拉伸的长度。",
+    "entries.gear.input_schema.bore_diameter.title": "孔径",
+    "entries.gear.input_schema.bore_diameter.description": "中心孔直径，0 表示无孔。",
+    "entries.gear.input_schema.keyway.title": "键槽",
+    "entries.gear.input_schema.keyway.description": "在孔中切出键槽（需要孔）。",
+    "entries.gear.input_schema.keyway_width.title": "键宽",
+    "entries.gear.input_schema.keyway_width.description": "槽宽，必须小于孔径。",
+    "entries.gear.input_schema.keyway_depth.title": "槽深",
+    "entries.gear.input_schema.keyway_depth.description": "槽从孔边缘向材料内切入的深度；不应切穿轮齿。",
+    "entries.gear.input_schema.keyway_angle.title": "槽位置",
+    "entries.gear.input_schema.keyway_angle.description": "槽朝向的角度（0 表示沿 +X）。",
+    "entries.gear.input_schema.name.title": "名称",
+    "entries.gear.input_schema.name.description": "草图、拉伸和实体的名称。"
+  }
+}

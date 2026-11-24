@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "locale": "zh-CN",
+    "revision": 1,
+    "upstream": "TheCraftyAlien/SolidCraft-Timber-Plugin"
+  },
+  "strings": {
+    "name": "木材型材",
+    "description": "标准木方截面（4x2、3x2、2x2、CLS、搁栅、立柱、木条），长度任意，可放置在原点，或与选定木方平行或垂直。",
+    "entries.timber.input_schema.size.title": "规格",
+    "entries.timber.input_schema.size.description": "实际截面尺寸（mm），厚 × 宽。",
+    "entries.timber.input_schema.inches.title": "英寸",
+    "entries.timber.input_schema.inches.description": "勾选后，下方纯数字按英寸而非毫米计算，本次运行的参数也以英寸为单位。带单位的数值会换算：2400 mm、2.4 m、8'、96\"、8' 6\"、1 1/2\"。",
+    "entries.timber.input_schema.length.title": "长度",
+    "entries.timber.input_schema.length.description": "纯数字表示 mm，勾选“英寸”时表示英寸。带单位的数值会换算：2400 mm、2.4 m、8'、96\"、8' 6\"、1 1/2\"。0 或留空：与所选木方等长。",
+    "entries.timber.input_schema.place.title": "放置",
+    "entries.timber.input_schema.place.description": "“平行”和“90 度”相对于你选择的木方：请在打开本工具前先点击它。",
+    "entries.timber.input_schema.at.title": "位置",
+    "entries.timber.input_schema.at.description": "相对于所选木方的位置。",
+    "entries.timber.input_schema.along.title": "起点",
+    "entries.timber.input_schema.along.description": "90 度时位于上方、下方或侧面：第一根沿所选木方从哪里开始。",
+    "entries.timber.input_schema.count.title": "数量",
+    "entries.timber.input_schema.count.description": "多根构成一排，按“间距”分隔。",
+    "entries.timber.input_schema.spacing.title": "间距",
+    "entries.timber.input_schema.spacing.description": "中心到中心，例如 400 mm、600 mm 或 16\"。0 表示相互贴合。",
+    "entries.timber.input_schema.direction.title": "方向",
+    "entries.timber.input_schema.direction.description": "长度走向。自动：在原点为 X，与所选木方成 90 度时垂直。平行：始终沿所选木方。",
+    "entries.timber.input_schema.lie.title": "朝向",
+    "entries.timber.input_schema.lie.description": "哪个面朝下。",
+    "entries.timber.input_schema.custom_thickness.title": "自定义厚度",
+    "entries.timber.input_schema.custom_thickness.description": "仅用于“规格 - 自定义”。mm，或勾选英寸时为英寸；也可带单位，例如 1 1/2\"。",
+    "entries.timber.input_schema.custom_width.title": "自定义宽度",
+    "entries.timber.input_schema.custom_width.description": "仅用于“规格 - 自定义”。mm，或勾选英寸时为英寸；也可带单位，例如 3 1/2\"。",
+    "entries.timber.input_schema.material.title": "材料",
+    "entries.timber.input_schema.name.title": "名称",
+    "entries.timber.input_schema.name.description": "留空：使用规格名，例如 4x2。重名时自动取下一个可用编号；多根会编号为 #1、#2。"
+  }
+}

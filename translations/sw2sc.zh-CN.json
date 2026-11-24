@@ -1,0 +1,11 @@
+{
+  "_meta": {
+    "locale": "zh-CN",
+    "revision": 1,
+    "upstream": "bobthecooldad/sw2sc"
+  },
+  "strings": {
+    "name": "SolidWorks 零件 (sw2sc)",
+    "description": "打开 SolidWorks 零件并保留其特征树：草图、尺寸、约束与特征，并依据零件自身实体进行校验。"
+  }
+}

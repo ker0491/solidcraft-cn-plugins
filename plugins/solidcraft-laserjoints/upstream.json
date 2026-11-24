@@ -1,0 +1,7 @@
+{
+  "id": "solidcraft-laserjoints",
+  "repo": "timobickert/Laser-joints-for-Solidcraft",
+  "asset_pattern": "solidcraft-laserjoints.zip",
+  "package_dir": "",
+  "translation": "translations/solidcraft-laserjoints.zh-CN.json"
+}

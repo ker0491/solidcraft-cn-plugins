@@ -1,0 +1,8 @@
+{
+  "id": "timber",
+  "repo": "TheCraftyAlien/SolidCraft-Timber-Plugin",
+  "asset_pattern": "timber-0.1.1-source.zip",
+  "package_dir": "",
+  "translation": "translations/timber.zh-CN.json",
+  "inner_zip": "timber-0.1.1-source/assets/timber-0.1.1.zip"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "iso-sheet",
+  "repo": "jcar01/solidcraft-plugin-iso-sheet",
+  "asset_pattern": "iso-sheet.zip",
+  "package_dir": "",
+  "translation": "translations/iso-sheet.zh-CN.json"
+}

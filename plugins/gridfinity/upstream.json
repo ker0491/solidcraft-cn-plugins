@@ -1,0 +1,7 @@
+{
+  "id": "gridfinity",
+  "repo": "tharje/gridfinity-solidcraft",
+  "asset_pattern": "gridfinity-1.5.0.zip",
+  "package_dir": "",
+  "translation": "translations/gridfinity.zh-CN.json"
+}

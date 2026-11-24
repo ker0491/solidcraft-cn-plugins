@@ -1,0 +1,11 @@
+{
+  "_meta": {
+    "locale": "zh-CN",
+    "revision": 1,
+    "upstream": "Stigern/SolidThreadsPlugin"
+  },
+  "strings": {
+    "name": "螺纹生成器",
+    "description": "在选定面上切削带打印间隙的螺纹，或生成螺栓、螺母与螺柱的 STL。"
+  }
+}

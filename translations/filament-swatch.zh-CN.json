@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "locale": "zh-CN",
+    "revision": 1,
+    "upstream": "tharje/filament-swatch-solidcraft"
+  },
+  "strings": {
+    "name": "耗材色卡",
+    "description": "耗材样品片：以文字标注品牌、材料、颜色与温度，并通过薄台阶展示耗材的透光程度。",
+    "entries.swatch.input_schema.brand.title": "品牌",
+    "entries.swatch.input_schema.brand.description": "以大写显示在顶部。留空则不显示",
+    "entries.swatch.input_schema.material.title": "材料",
+    "entries.swatch.input_schema.material.description": "右上角，例如 PLA、Rapid PETG",
+    "entries.swatch.input_schema.color.title": "颜色",
+    "entries.swatch.input_schema.color.description": "多种颜色用 ; 分隔，每色生成一片，排成一列",
+    "entries.swatch.input_schema.nozzle_temp.title": "喷嘴温度 °C",
+    "entries.swatch.input_schema.nozzle_temp.description": "0 = 不显示",
+    "entries.swatch.input_schema.bed_temp.title": "热床温度 °C",
+    "entries.swatch.input_schema.bed_temp.description": "0 = 不显示",
+    "entries.swatch.input_schema.steps.title": "台阶（mm）",
+    "entries.swatch.input_schema.steps.description": "底部每级薄台阶的厚度，例如 0.2、0.4、0.6、0.8、1.0（最多 8 级）。留空则不生成",
+    "entries.swatch.input_schema.text_style.title": "文字",
+    "entries.swatch.input_schema.text_style.description": "刻入顶面，或凸出于顶面",
+    "entries.swatch.input_schema.hole.title": "钥匙扣孔",
+    "entries.swatch.input_schema.hole.description": "左上角的 5 mm 孔",
+    "entries.swatch.input_schema.position_x.title": "位置 X",
+    "entries.swatch.input_schema.position_x.description": "第一片的角点",
+    "entries.swatch.input_schema.position_y.title": "位置 Y",
+    "entries.swatch.input_schema.position_y.description": "第一片的角点",
+    "entries.swatch.input_schema.size_x.title": "宽度",
+    "entries.swatch.input_schema.size_y.title": "深度",
+    "entries.swatch.input_schema.text_depth.title": "文字深度",
+    "entries.swatch.input_schema.text_depth.description": "雕刻文字的下凹深度，或凸起文字的高度",
+    "entries.swatch.input_schema.text_height.title": "文字大小",
+    "entries.swatch.input_schema.text_height.description": "颜色行大写字母的高度；品牌字号略大",
+    "entries.swatch.input_schema.thickness.title": "厚度",
+    "entries.swatch.input_schema.title.title": "实体名称",
+    "entries.swatch.input_schema.title.description": "留空则为 Swatch 加颜色名"
+  }
+}

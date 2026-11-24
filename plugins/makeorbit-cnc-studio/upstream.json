@@ -1,0 +1,7 @@
+{
+  "id": "makeorbit-cnc-studio",
+  "repo": "645DF/MakeOrbit-SolidCraft",
+  "asset_pattern": "makeorbit-cnc-studio-0.2.0.zip",
+  "package_dir": "",
+  "translation": "translations/makeorbit-cnc-studio.zh-CN.json"
+}

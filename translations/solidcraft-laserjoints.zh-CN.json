@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "locale": "zh-CN",
+    "revision": 1,
+    "upstream": "timobickert/Laser-joints-for-Solidcraft"
+  },
+  "strings": {
+    "name": "激光切割接合",
+    "description": "在激光切割板材的边缘生成指接榫与开槽。切缝与过盈保持为参数，特征位于时间轴中。",
+    "entries.make-joints.input_schema.edges.title": "边",
+    "entries.make-joints.input_schema.edges.description": "板材上要制作接合齿的长边。每条边生成一排指榫或一排槽。仅有板厚的短端面会被拒绝。更多边可在后续调用中添加。",
+    "entries.make-joints.input_schema.mode.title": "模式",
+    "entries.make-joints.input_schema.mode.description": "在选定边上生成什么。指榫沿边向外伸出材料厚度的长度。槽是容纳这些指榫的切口，位于相邻间隙处，相距一个指宽。相邻板的对边应使用另一模式，并保持相同的指宽、切缝和过盈。",
+    "entries.make-joints.input_schema.finger_width.title": "指宽",
+    "entries.make-joints.input_schema.finger_width.description": "一个指榫及其对应槽的名义宽度（mm），不含切缝和过盈。0 自动取材料厚度的 2.5 倍，例如 3 mm 板为 7.5 mm。该值必须大于材料厚度，否则槽之间的连接肋太窄。切缝和过盈不改变此名义宽度，只改变实际绘制宽度。",
+    "entries.make-joints.input_schema.finger_count.title": "数量",
+    "entries.make-joints.input_schema.finger_count.description": "在可用边长上均分多少段。留空：保持指宽，剩余部分在两端平均分配。奇数段可使两端一致：指榫模式两端各为指榫，槽模式两端各为材料。槽位于其间的间隙中。范围 1 到 31。",
+    "entries.make-joints.input_schema.kerf.title": "切缝",
+    "entries.make-joints.input_schema.kerf.description": "激光切割宽度（mm），即光束烧掉的材料。默认 0.15 mm，常见于二极管激光器（xTool、LightBurn）。指榫绘制时加半个切缝，槽减半个切缝，使切出的零件保持名义宽度。若 LightBurn 或 xTool 已补偿切缝，请填 0，否则会重复补偿。该值对整个设计生效：后续调用会重新设置，已生成的接合齿也会随之更新。",
+    "entries.make-joints.input_schema.fit.title": "过盈",
+    "entries.make-joints.input_schema.fit.description": "在切缝补偿之后，为插接增加的紧度（mm）。0 表示指榫与槽刚好吻合。正值使连接更紧（压配）：指榫加宽、槽缩窄相同量，需要用力压合。0.05 mm 为轻微压配。负值（例如 −0.05）给出间隙，更易插接。该值叠加在切缝之上，与指宽无关，与切缝一样对该设计的所有接合齿生效。",
+    "entries.make-joints.input_schema.fit_percent.title": "过盈百分比",
+    "entries.make-joints.input_schema.fit_percent.description": "同样的过盈，以指宽的百分比表示，与“过盈”字段的毫米值叠加。1 表示百分之一：指宽 7.5 mm 时为 0.075 mm。0 表示不叠加百分比。正值更紧，负值更松。若要固定的毫米增量，只用“过盈”字段即可。",
+    "entries.make-joints.input_schema.material_thickness.title": "材料厚度",
+    "entries.make-joints.input_schema.material_thickness.description": "指榫伸出和槽深入的厚度（mm），即插入的那块板的厚度。0 表示测量所选边处的壁厚。切割始终按测得的自身壁厚进行，即使此处填写的是另一块板的厚度。",
+    "entries.make-joints.input_schema.corners.title": "端部",
+    "entries.make-joints.input_schema.corners.description": "边的两端保留什么。内缩：两端至少留一个材料厚度不做接合齿，避免与相邻边的齿在同一角冲突。齐平：一直用到角落，适合相邻边在该处没有自身接合齿的情况。",
+    "entries.make-joints.input_schema.corner_margin.title": "端部内缩",
+    "entries.make-joints.input_schema.corner_margin.description": "每条边端部固定留空的距离（mm），会取代“端部”选项。0 等同于齐平。留空则采用一个材料厚度的内缩，或在齐平时不内缩。"
+  }
+}

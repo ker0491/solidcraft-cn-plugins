@@ -1,0 +1,35 @@
+name: Sync upstream plugins
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check upstream releases
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/sync.py
+      - name: Open sync PR
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: bot/upstream-sync
+          delete-branch: true
+          title: "chore: sync upstream plugin versions"
+          commit-message: "chore: sync upstream plugin versions"
+          body: |
+            自动检测到上游插件版本或文件哈希变化。
+
+            请复核 `translations/` 中是否出现新字段；缺失的译文会回退英文，不会阻塞构建。

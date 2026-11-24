@@ -1,0 +1,7 @@
+{
+  "id": "custom-threads",
+  "repo": "Sooner4500/solidcraft-custom-threads",
+  "asset_pattern": "custom-threads.zip",
+  "package_dir": "",
+  "translation": "translations/custom-threads.zh-CN.json"
+}

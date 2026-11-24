@@ -1,0 +1,7 @@
+{
+  "id": "solidcraft-gears",
+  "repo": "bherbruck/solidcraft-gears",
+  "asset_pattern": "*.zip",
+  "package_dir": "solidcraft-gears",
+  "translation": "translations/solidcraft-gears.zh-CN.json"
+}

@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "locale": "zh-CN",
+    "revision": 1,
+    "upstream": "TechSquidTV/SolidCraft-Plugins"
+  },
+  "strings": {
+    "name": "型材导轨",
+    "description": "MISUMI 5 系列 T 型槽与 OpenBuilds V 型槽导轨，含槽螺母。可在点上放置定长构件，或沿草图直线生成独立导轨。",
+    "entries.make-extrusion.input_schema.end_taps.title": "端部攻丝",
+    "entries.make-extrusion.input_schema.end_taps.description": "将所选端的所有孔攻 M5 螺纹，深 12 mm。固定长度模式下起点为放置点，草图驱动模式下为源直线起点。",
+    "entries.make-extrusion.input_schema.hole_face.title": "开孔面",
+    "entries.make-extrusion.input_schema.hole_face.description": "螺钉攻入的面，用于未指定面的孔：+Y 和 -Y 为型材高度方向的两端，+X 和 -X 为宽度方向的两端。带两个槽的面会在每个槽各开一个孔。",
+    "entries.make-extrusion.input_schema.holes.title": "螺钉孔",
+    "entries.make-extrusion.input_schema.holes.description": "可选的 M5 螺钉孔距离（mm），例如 10、290。从起点量起，草图驱动模式下从“孔起点”所选的那端量起。每处切一个 9.5 mm 的操作孔和一个 5.5 mm 间隙孔。面名称适用于其后的距离：+X 10、290 -Y 150。",
+    "entries.make-extrusion.input_schema.holes_from.title": "孔起点",
+    "entries.make-extrusion.input_schema.holes_from.description": "仅用于草图驱动模式：从每条路径线的这一端量取螺钉孔距离。后续长度变化时偏移会跟随。",
+    "entries.make-extrusion.input_schema.length.title": "长度",
+    "entries.make-extrusion.input_schema.length.description": "仅用于固定长度模式。草图驱动的导轨从路径线获取长度。",
+    "entries.make-extrusion.input_schema.mode.title": "模式",
+    "entries.make-extrusion.input_schema.mode.description": "固定长度：在点上放置共用构件。草图驱动：在每条选定的直线草图上生成独立导轨；编辑路径即可修改导轨。",
+    "entries.make-extrusion.input_schema.placement.title": "放置位置",
+    "entries.make-extrusion.input_schema.placement.description": "在视图中选取。固定长度：每条导轨起始的草图点或圆，圆或圆内表示圆心；未选择任何对象时在原点放置一根导轨。草图驱动：在一个草图中选择 1 到 16 条直线，每条生成一根导轨；加工时可能需要分更小的批次。",
+    "entries.make-extrusion.input_schema.size.title": "规格",
+    "entries.make-extrusion.input_schema.size.description": "宽和高，以 10 mm 为单位：2040 表示沿草图 X 为 20 mm、沿 Y 为 40 mm。V 型槽规格从 2020 到 2080。",
+    "entries.make-extrusion.input_schema.slot.title": "槽型",
+    "entries.make-extrusion.input_schema.slot.description": "T 型槽为 MISUMI 5 系列导轨（HFS5、NFS5），槽宽 6 mm。V 型槽为 OpenBuilds 导轨，槽面为滚轮做了倒角。",
+    "entries.make-extrusion.input_schema.thread_modeled.title": "建模螺纹",
+    "entries.make-extrusion.input_schema.thread_modeled.description": "切削真实螺纹而非装饰螺纹。草图驱动运行中所有导轨最多允许四个建模螺纹孔。",
+    "entries.make-t-nut.input_schema.along.title": "导轨走向",
+    "entries.make-t-nut.input_schema.along.description": "导轨沿哪条草图轴延伸，使螺母顺着槽放置。",
+    "entries.make-t-nut.input_schema.placement.title": "放置位置",
+    "entries.make-t-nut.input_schema.placement.description": "在视图中选取要放置螺母的草图点或圆：位于导轨表面、槽的中央。点击圆或圆内部可取圆心。未选择任何对象时在原点放置一个螺母。",
+    "entries.make-t-nut.input_schema.size.title": "尺寸",
+    "entries.make-t-nut.input_schema.size.description": "M3、M4 或 M5。同一螺母类型外形不变；“尺寸”改变螺纹孔和 MISUMI 料号。",
+    "entries.make-t-nut.input_schema.slot.title": "槽型",
+    "entries.make-t-nut.input_schema.slot.description": "螺母所在的导轨。螺母悬挂在唇边下方，T 型槽低于表面 2 mm，V 型槽低于表面 1.8 mm。",
+    "entries.make-t-nut.input_schema.thread_modeled.title": "建模螺纹",
+    "entries.make-t-nut.input_schema.thread_modeled.description": "开启：在孔中切削螺纹。关闭：只钻底孔并标注螺纹规格。",
+    "entries.make-t-nut.input_schema.type.title": "类型",
+    "entries.make-t-nut.input_schema.type.description": "预装型为 MISUMI HNTT5 螺母，长 10 mm，从导轨端部滑入。后装型为 HNTP5 螺母，长 17 mm，从槽口放入，下方带弹簧珠。尺寸选择 M3、M4 或 M5 版本。"
+  }
+}

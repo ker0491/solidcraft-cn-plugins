@@ -1,0 +1,7 @@
+{
+  "id": "solidcraft-honeycomb",
+  "repo": "Xusr404/solidcraft-honeycomb-plugin",
+  "asset_pattern": "solidcraft-honeycomb.zip",
+  "package_dir": "",
+  "translation": "translations/solidcraft-honeycomb.zh-CN.json"
+}

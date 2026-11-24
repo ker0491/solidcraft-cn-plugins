@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "locale": "zh-CN",
+    "revision": 1,
+    "upstream": "TechSquidTV/SolidCraft-Plugins"
+  },
+  "strings": {
+    "name": "螺钉",
+    "description": "基于 ISO 公制螺钉标准。选择已有孔位来安装螺钉，或选择草图点和圆生成螺钉及可选底孔。未选择任何对象时，在原点放置一枚螺钉。",
+    "entries.make-screw.input_schema.create.title": "创建内容",
+    "entries.make-screw.input_schema.create.description": "仅螺钉：只生成螺钉，未选择对象时在原点。螺钉和孔：在每个选定点下方的零件上钻孔。仅孔：只钻孔，不生成螺钉。",
+    "entries.make-screw.input_schema.custom_size.title": "自定义规格",
+    "entries.make-screw.input_schema.custom_size.description": "可选。替代尺寸字段的公制规格，例如 M8x1 或 M3.5x0.6。若所选头部没有该规格的标准，请同时填写自定义头部直径和自定义头部高度。",
+    "entries.make-screw.input_schema.drive.title": "驱动槽",
+    "entries.make-screw.input_schema.drive.description": "标准模式按所选头部切削常见驱动槽：内六角用于内六角圆柱头、半圆头和沉头螺钉及紧定螺钉；十字槽用于盘头和 M3 以下沉头；一字槽用于圆柱头；六角头无槽。除填写驱动槽尺寸外，均按标准确定尺寸。",
+    "entries.make-screw.input_schema.drive_size.title": "驱动槽尺寸",
+    "entries.make-screw.input_schema.drive_size.description": "可选。留空则使用所选驱动槽的标准尺寸。内六角：扳手尺寸，或扳手尺寸和深度，例如 2.5 或 2.5x1.3。Torx：T10。十字：PH2 或 PH2x2.1。一字：宽度和深度，例如 0.8x0.7。若头部高度不足，Torx 凹槽会切削较浅，底部保留 0.3 mm；回复中会给出实际切削深度。",
+    "entries.make-screw.input_schema.flip.title": "翻转方向",
+    "entries.make-screw.input_schema.flip.description": "仅用于仅螺钉模式。在放置点处翻转每枚螺钉。选择孔位时，头部默认朝外。",
+    "entries.make-screw.input_schema.head.title": "头部",
+    "entries.make-screw.input_schema.head.description": "头部尺寸依据所选尺寸和驱动槽的标准确定：一字或十字盘头/沉头与内六角头尺寸不同。紧定螺钉和螺柱无头部。若某尺寸没有头部标准，请填写两项自定义头部尺寸。",
+    "entries.make-screw.input_schema.head_diameter.title": "自定义头部直径",
+    "entries.make-screw.input_schema.head_diameter.description": "可选。留空则使用标准头部。六角头指对边宽度。单独填写时保留标准高度。沉头或没有标准头部的尺寸还需要填写自定义头部高度。",
+    "entries.make-screw.input_schema.head_height.title": "自定义头部高度",
+    "entries.make-screw.input_schema.head_height.description": "可选。留空则使用标准头部。单独填写时保留标准直径。沉头或没有标准头部的尺寸还需要填写自定义头部直径。",
+    "entries.make-screw.input_schema.hole_type.title": "孔类型",
+    "entries.make-screw.input_schema.hole_type.description": "在创建内容钻孔时使用。间隙孔为 ISO 273 标准通孔。沉头孔增加沉孔，沉头螺钉则增加锥形沉孔，使螺钉头部齐平。攻丝孔切削螺钉自身的螺纹。深度均与螺钉伸入深度一致。",
+    "entries.make-screw.input_schema.length.title": "长度",
+    "entries.make-screw.input_schema.length.description": "按标准列出的长度：头下长度；沉头螺钉为总长（ISO 10642、ISO 2009 和 ISO 7046-1 含头部）；紧定螺钉和螺柱为总长。",
+    "entries.make-screw.input_schema.placement.title": "放置位置",
+    "entries.make-screw.input_schema.placement.description": "仅用于仅螺钉模式：点击孔边缘或孔壁，以刚性接头安装螺钉。草图点和圆用于放置独立螺钉或定位新孔。未选择任何对象时，在原点放置一枚独立螺钉。",
+    "entries.make-screw.input_schema.size.title": "尺寸",
+    "entries.make-screw.input_schema.size.description": "常见机螺钉尺寸，粗牙。其他公制尺寸（如细牙）请填写自定义规格。",
+    "entries.make-screw.input_schema.thread_length.title": "螺纹长度",
+    "entries.make-screw.input_schema.thread_length.description": "可选。从尖端起算的螺纹长度，不包含尖端。留空则使用标准：短螺钉为整个杆部，足够长的螺钉为标准螺纹长度。输入完整长度可将全部杆部车螺纹。",
+    "entries.make-screw.input_schema.thread_modeled.title": "建模螺纹",
+    "entries.make-screw.input_schema.thread_modeled.description": "在杆部切削螺纹轮廓。关闭时保留装饰螺纹，重建更快。",
+    "entries.make-screw.input_schema.tip.title": "尖端",
+    "entries.make-screw.input_schema.tip.description": "平端为方形端面；紧定螺钉上为 ISO 4026 平端：45° 倒角至较小平面。尖端为自攻螺旋端，计入长度。杯端为端面 120° 凹坑；紧定螺钉上为 ISO 4029 杯端，外侧倒角至边缘。"
+  }
+}

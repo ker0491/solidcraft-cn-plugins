@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "locale": "zh-CN",
+    "revision": 1,
+    "upstream": "bherbruck/solidcraft-gears"
+  },
+  "strings": {
+    "name": "渐开线齿轮",
+    "description": "渐开线直齿轮生成器：模数、齿数、压力角、齿宽、孔径与变位系数。生成可编辑的草图与特征。",
+    "entries.make-gear.input_schema.module.title": "模数",
+    "entries.make-gear.input_schema.module.description": "模数 m。分度圆直径 = 模数 × 齿数",
+    "entries.make-gear.input_schema.teeth.title": "齿数",
+    "entries.make-gear.input_schema.teeth.description": "齿数",
+    "entries.make-gear.input_schema.face_width.title": "齿宽",
+    "entries.make-gear.input_schema.face_width.description": "齿轮厚度",
+    "entries.make-gear.input_schema.pressure_angle.title": "压力角",
+    "entries.make-gear.input_schema.pressure_angle.description": "齿廓的压力角",
+    "entries.make-gear.input_schema.bore_diameter.title": "中心孔直径",
+    "entries.make-gear.input_schema.bore_diameter.description": "中心孔直径，0 表示无孔",
+    "entries.make-gear.input_schema.profile_shift.title": "变位系数",
+    "entries.make-gear.input_schema.profile_shift.description": "变位系数 x；外径 = 模数 × (齿数 + 2 + 2x)"
+  }
+}

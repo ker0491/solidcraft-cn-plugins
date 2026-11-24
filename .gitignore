@@ -1,0 +1,5 @@
+.work/
+dist/
+site/packages/
+__pycache__/
+*.pyc

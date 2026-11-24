@@ -1,0 +1,7 @@
+{
+  "id": "gear-generator",
+  "repo": "pro-d-e-v/solidcraft-plugin-gear",
+  "asset_pattern": "gear-generator-0.4.0.zip",
+  "package_dir": "",
+  "translation": "translations/gear-generator.zh-CN.json"
+}

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SolidCraft 中文插件站</title>
+<meta name="description" content="SolidCraft 社区插件的中文目录：汉化界面文本，执行代码与上游一致。">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-inner">
+    <a class="brand" href="./">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 4 9v14l12 7 12-7V9L16 2Zm0 4.3 7.8 4.5L16 15.3 8.2 10.8 16 6.3ZM7 13.2l7.5 4.3v8.3L7 21.5v-8.3Zm10.5 12.6v-8.3l7.5-4.3v8.3l-7.5 4.3Z"/></svg>
+      <span>SolidCraft 中文插件站</span>
+    </a>
+    <nav>
+      <a href="#plugins">插件目录</a>
+      <a href="#about">关于汉化</a>
+      <a href="https://github.com/ker0491/solidcraft-cn-plugins" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div class="eyebrow">社区插件 · 中文界面</div>
+    <h1>让 SolidCraft 插件说中文</h1>
+    <p>只汉化界面上的文字，执行组件与上游逐字节一致。插件目录每日同步社区列表，译文尚未覆盖的字段自动回退英文。</p>
+    <div class="stats" id="stats"></div>
+  </section>
+
+  <section id="plugins">
+    <div class="toolbar">
+      <input id="q" type="search" placeholder="搜索插件、功能或作者…" autocomplete="off" aria-label="搜索插件">
+      <select id="state" aria-label="汉化状态">
+        <option value="all">全部状态</option>
+        <option value="localized">已汉化</option>
+        <option value="pending">待汉化</option>
+      </select>
+      <select id="sort" aria-label="排序方式">
+        <option value="localized">优先已汉化</option>
+        <option value="stars">最多星标</option>
+        <option value="downloads">最多下载</option>
+        <option value="updated">最近更新</option>
+        <option value="name">名称</option>
+      </select>
+    </div>
+    <div class="tags" id="tags"></div>
+    <div class="count" id="count"></div>
+    <div class="grid" id="list"></div>
+  </section>
+
+  <section class="info" id="about">
+    <h2>关于这些汉化包</h2>
+    <div class="cols">
+      <div>
+        <h3>只改文字，不改功能</h3>
+        <p>SolidCraft 插件的对话框由宿主根据 <code>plugin.json</code> 绘制，插件本身不携带界面代码。我们只替换其中的 <code>name</code>、<code>description</code> 和参数字段的说明文字，<code>.wasm</code> 组件原样保留。</p>
+        <h3>可以自己核对</h3>
+        <p>每张已汉化卡片都显示 wasm 的 SHA-256 前缀，与上游发布包一致。安装时 SolidCraft 会要求重新确认权限，这是因为汉化改动了 manifest 的哈希，属于预期行为。</p>
+      </div>
+      <div>
+        <h3>汉化范围</h3>
+        <ul>
+          <li>插件名称与简介</li>
+          <li>参数字段的标题与说明</li>
+          <li>不翻译菜单槽位、命令名与程序标识符</li>
+          <li>不翻译编译在 wasm 内部的错误提示</li>
+        </ul>
+        <h3>安装方法</h3>
+        <p>下载后解压，把插件文件夹复制到 SolidCraft 的 <code>plugins</code> 目录，然后在 Preferences › Plugins 中启用。</p>
+      </div>
+    </div>
+    <p class="note">插件目录来自 <a href="https://github.com/tharje/solidcraft-plugins" target="_blank" rel="noopener">tharje/solidcraft-plugins</a>（MIT）。各插件归原作者所有，汉化包沿用上游许可证。本站点与 Tangency Labs 无关。</p>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <span>SolidCraft 中文插件站 · 社区自发项目</span>
+  <span id="updated"></span>
+</footer>
+
+<template id="card">
+  <article class="card">
+    <a class="pic" href="#">
+      <span class="ph"></span>
+      <img alt="" loading="lazy">
+    </a>
+    <div class="body">
+      <div class="top-row">
+        <span class="cat"></span>
+        <span class="status"></span>
+      </div>
+      <h3><a class="name" href="#"></a><span class="ver"></span></h3>
+      <div class="by"><img alt="" loading="lazy"><span></span></div>
+      <p class="desc"></p>
+      <p class="original"></p>
+      <div class="chips"></div>
+      <p class="verified"></p>
+      <div class="actions">
+        <a class="btn primary zip" href="#" target="_blank" rel="noopener">下载中文包</a>
+        <a class="btn gh" href="#" target="_blank" rel="noopener">上游仓库</a>
+      </div>
+    </div>
+  </article>
+</template>
+
+<script src="app.js"></script>
+</body>
+</html>

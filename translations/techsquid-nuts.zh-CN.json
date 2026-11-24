@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "locale": "zh-CN",
+    "revision": 1,
+    "upstream": "TechSquidTV/SolidCraft-Plugins"
+  },
+  "strings": {
+    "name": "六角螺母",
+    "description": "放置普通六角螺母或尼龙锁紧螺母，可选配防转沉孔与螺栓孔。选择草图点或圆，也可在原点放置一个独立螺母。",
+    "entries.make-nut.input_schema.create.title": "创建内容",
+    "entries.make-nut.input_schema.create.description": "仅螺母：只生成螺母，未选择对象时在原点。螺母和沉孔：在每个选定点下方的零件上切削六角沉孔及螺栓间隙孔，并将螺母齐平嵌入。仅沉孔：只切削沉孔，不生成螺母。",
+    "entries.make-nut.input_schema.custom_size.title": "自定义规格",
+    "entries.make-nut.input_schema.custom_size.description": "可选的公制螺纹，包括 M8x1 这样的细牙。锁紧螺母需要选用列表中已有的公称直径。",
+    "entries.make-nut.input_schema.custom_thickness.title": "自定义厚度",
+    "entries.make-nut.input_schema.custom_thickness.description": "可选的总高度，包括锁紧螺母的尼龙圈。留空则使用所选标准。",
+    "entries.make-nut.input_schema.custom_width.title": "自定义宽度",
+    "entries.make-nut.input_schema.custom_width.description": "可选的对边宽度。留空则使用所选标准。",
+    "entries.make-nut.input_schema.placement.title": "放置位置",
+    "entries.make-nut.input_schema.placement.description": "在视图中选择要放置螺母的草图点或圆。点击圆或圆内部可取圆心。每处生成一个螺母，若创建内容为螺母和沉孔则同时生成沉孔。未选择任何对象时，在原点放置一个螺母。",
+    "entries.make-nut.input_schema.pocket_adjust.title": "沉孔调整",
+    "entries.make-nut.input_schema.pocket_adjust.description": "在创建内容切削沉孔时使用。螺母每个平面与沉孔之间的间隙。打印出的沉孔通常偏小：增大此值直到螺母能放入。",
+    "entries.make-nut.input_schema.size.title": "尺寸",
+    "entries.make-nut.input_schema.size.description": "选择粗牙公制螺纹。标注“仅普通六角”的尺寸只适用于该样式；其他尺寸也适用于尼龙锁紧螺母。",
+    "entries.make-nut.input_schema.style.title": "螺母样式",
+    "entries.make-nut.input_schema.style.description": "普通 ISO 4032 六角螺母，或薄型 DIN 985 尼龙锁紧螺母。尼龙圈朝向远离贴合面的方向。",
+    "entries.make-nut.input_schema.thread_modeled.title": "建模螺纹",
+    "entries.make-nut.input_schema.thread_modeled.description": "切削内螺纹。关闭时保留装饰螺纹，重建更快。"
+  }
+}

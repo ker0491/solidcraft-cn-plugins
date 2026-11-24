@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "locale": "zh-CN",
+    "revision": 1,
+    "upstream": "TechSquidTV/SolidCraft-Plugins"
+  },
+  "strings": {
+    "name": "V 型轮",
+    "description": "OpenBuilds V 型轮。选择草图点或圆：每处生成一个滚轮，可包含轴承与垫片。未选择任何对象时，在原点放置一个滚轮。",
+    "entries.make-v-wheel.input_schema.assembled.title": "包含轴承与内垫片",
+    "entries.make-v-wheel.input_schema.assembled.description": "开启时添加两个轴承及其间的垫片，作为滚轮的一个组件；关闭时仅生成裸轮。",
+    "entries.make-v-wheel.input_schema.placement.title": "放置位置",
+    "entries.make-v-wheel.input_schema.placement.description": "在视图中选择要放置滚轮的草图点或圆。点击圆或圆内部可取圆心。未选择任何对象时，在原点放置一个滚轮。",
+    "entries.make-v-wheel.input_schema.size.title": "零件",
+    "entries.make-v-wheel.input_schema.size.description": "要放置的 OpenBuilds 滚轮型号。"
+  }
+}
