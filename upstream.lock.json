@@ -208,6 +208,30 @@
       "manifest_sha256": "9a242cba8743c52015392dc36f4b8c487e0f61ba5cf06bc39fc270832f22c09b",
       "wasm_sha256": "af9121f05862b9a3cbd7232adbbfaccacda7c9b5f126215bb9a3006d1ae9ac27",
       "checked_at": "2026-11-24T06:14:41+00:00"
+    },
+    "jis-hex-bolt": {
+      "tag": "v0.3.0",
+      "asset": "jis-hex-bolt.zip",
+      "asset_sha256": "f76d5d7210460bd71cb710b84857fe5a5691ffb67f33d3e3092475c4361e10bc",
+      "manifest_sha256": "5d747a847223357a6804993a96d8b79f5ac3712a2dc982c88cf3552241aa8e5b",
+      "wasm_sha256": "f3916250ec4a7e7761c38489f68f0e9c8cab3294e7f59cc919f7c0681c191e43",
+      "checked_at": "2026-11-24T12:38:57+00:00"
+    },
+    "solidcraft-gridfinity": {
+      "tag": "v0.1.0",
+      "asset": "solidcraft-gridfinity-0.1.0.zip",
+      "asset_sha256": "33a58a0210cc4e216d7b060429f44cb5a5deb7757a0f56a5a37e0eecb09730ea",
+      "manifest_sha256": "b608b615166d4d701dfc4db3bd2deaef563fa4aab8f5cf8e725d3cfa29672b67",
+      "wasm_sha256": "ae2ba45f3daa3bcb8067cc0a3a54583045ed99e2b3ddfc8d3143f879c4bd38b6",
+      "checked_at": "2026-11-24T12:39:07+00:00"
+    },
+    "opengrid": {
+      "tag": "v0.3.1",
+      "asset": "opengrid-0.3.1.zip",
+      "asset_sha256": "053d34ae7a8bb1e49529ca3e85f531f347706292bfd261565990d65c93a07795",
+      "manifest_sha256": "9ed2776443d9024809a65a11af3549225d90339d8a8c147df7ee392de8bedb70",
+      "wasm_sha256": "940e6591fc273e0026ed270e9f29c19131bf513c37a45217fcad47e93e792b57",
+      "checked_at": "2026-11-24T12:39:24+00:00"
     }
   }
 }

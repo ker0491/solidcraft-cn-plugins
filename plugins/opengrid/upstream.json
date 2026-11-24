@@ -1,0 +1,7 @@
+{
+  "id": "opengrid",
+  "repo": "tharje/opengrid-solidcraft",
+  "asset_pattern": "opengrid-0.3.1.zip",
+  "package_dir": "opengrid",
+  "translation": "translations/opengrid.zh-CN.json"
+}

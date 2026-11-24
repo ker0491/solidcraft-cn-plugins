@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "locale": "zh-CN",
+    "revision": 1,
+    "upstream": "aoka2/solidcraft-jis-screws"
+  },
+  "strings": {
+    "name": "JIS 螺栓与机螺钉",
+    "description": "选择头部类型、尺寸和长度，即可生成带螺纹的 JIS 螺栓或机螺钉（含部分厂商规格）。",
+    "entries.make.input_schema.head.title": "头部类型",
+    "entries.make.input_schema.size.title": "尺寸",
+    "entries.make.input_schema.length.title": "长度 (mm)",
+    "entries.make.input_schema.thread.title": "螺纹"
+  }
+}

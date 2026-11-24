@@ -1,0 +1,7 @@
+{
+  "id": "solidcraft-gridfinity",
+  "repo": "haashimrehan/solidcraft-gridfinity",
+  "asset_pattern": "solidcraft-gridfinity-0.1.0.zip",
+  "package_dir": "solidcraft-gridfinity",
+  "translation": "translations/solidcraft-gridfinity.zh-CN.json"
+}

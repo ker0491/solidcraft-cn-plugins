@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "locale": "zh-CN",
+    "revision": 1,
+    "upstream": "tharje/opengrid-solidcraft"
+  },
+  "strings": {
+    "name": "openGrid 墙板与桌板",
+    "description": "按 28 mm 网格制作 openGrid 墙板与桌板，可选 Full 或 Lite 版本，支持螺钉孔与切角，生成可编辑的草图与特征。",
+    "entries.board.input_schema.width.title": "宽度（格数）",
+    "entries.board.input_schema.width.description": "横向格数，每格 28 mm。单块板最多 100 格",
+    "entries.board.input_schema.height.title": "高度（格数）",
+    "entries.board.input_schema.height.description": "纵向格数，每格 28 mm",
+    "entries.board.input_schema.board.title": "板材类型",
+    "entries.board.input_schema.board.description": "Full：6.8 mm，用安装扣固定，适配所有扣位。Lite：4 mm，背面平整，直接用螺钉固定到墙上",
+    "entries.board.input_schema.screw_holes.title": "螺钉孔",
+    "entries.board.input_schema.screw_holes.description": "在网格线交叉处（非边缘）为 4 mm 木螺钉添加沉头孔",
+    "entries.board.input_schema.corner_chamfers.title": "切角",
+    "entries.board.input_schema.corner_chamfers.description": "按 openGrid 的做法切掉板材四个外角",
+    "entries.board.input_schema.position_x.title": "X 位置",
+    "entries.board.input_schema.position_x.description": "板材的角点",
+    "entries.board.input_schema.position_y.title": "Y 位置",
+    "entries.board.input_schema.position_y.description": "板材的角点",
+    "entries.board.input_schema.title.title": "实体名称",
+    "entries.board.input_schema.title.description": "留空则使用 openGrid 与尺寸命名"
+  }
+}

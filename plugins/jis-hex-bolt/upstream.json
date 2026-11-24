@@ -1,0 +1,7 @@
+{
+  "id": "jis-hex-bolt",
+  "repo": "aoka2/solidcraft-jis-screws",
+  "asset_pattern": "jis-hex-bolt.zip",
+  "package_dir": "",
+  "translation": "translations/jis-hex-bolt.zh-CN.json"
+}

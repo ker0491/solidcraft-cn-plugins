@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "locale": "zh-CN",
+    "revision": 1,
+    "upstream": "haashimrehan/solidcraft-gridfinity"
+  },
+  "strings": {
+    "name": "Gridfinity 收纳盒与底板",
+    "description": "按指定网格尺寸生成 Gridfinity 收纳盒与底板：支脚、堆叠唇边、磁铁孔、隔板、取物斜面和标签舌，输出可编辑的草图与拉伸特征。",
+    "entries.make-bin.input_schema.width.title": "宽度",
+    "entries.make-bin.input_schema.width.description": "X 方向的网格数，每格 42 mm",
+    "entries.make-bin.input_schema.depth.title": "深度",
+    "entries.make-bin.input_schema.depth.description": "Y 方向的网格数，每格 42 mm",
+    "entries.make-bin.input_schema.height.title": "高度",
+    "entries.make-bin.input_schema.height.description": "高度单位，每级 7 mm，不含堆叠唇边",
+    "entries.make-bin.input_schema.wall.title": "壁厚",
+    "entries.make-bin.input_schema.wall.description": "侧壁与隔板的厚度",
+    "entries.make-bin.input_schema.stacking_lip.title": "堆叠唇边",
+    "entries.make-bin.input_schema.stacking_lip.description": "盒口边缘的唇边，用于卡住上一个盒子的支脚",
+    "entries.make-bin.input_schema.magnet_holes.title": "磁铁孔",
+    "entries.make-bin.input_schema.magnet_holes.description": "每个格子底部四个 6.5 x 2.4 mm 凹槽，适配 6 x 2 mm 磁铁",
+    "entries.make-bin.input_schema.compartments_x.title": "X 方向分格数",
+    "entries.make-bin.input_schema.compartments_x.description": "沿 X 方向并排的分格数量",
+    "entries.make-bin.input_schema.compartments_y.title": "Y 方向分格数",
+    "entries.make-bin.input_schema.compartments_y.description": "沿 Y 方向并排的分格数量",
+    "entries.make-bin.input_schema.scoop.title": "取物斜面",
+    "entries.make-bin.input_schema.scoop.description": "沿前壁的弧形斜坡，方便小零件滑出",
+    "entries.make-bin.input_schema.label_tab.title": "标签舌",
+    "entries.make-bin.input_schema.label_tab.description": "沿后壁的搁板，用于放置标签",
+    "entries.make-baseplate.input_schema.width.title": "宽度",
+    "entries.make-baseplate.input_schema.width.description": "X 方向的网格数，每格 42 mm",
+    "entries.make-baseplate.input_schema.depth.title": "深度",
+    "entries.make-baseplate.input_schema.depth.description": "Y 方向的网格数，每格 42 mm"
+  }
+}
