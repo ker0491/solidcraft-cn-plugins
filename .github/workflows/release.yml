@@ -44,4 +44,4 @@ jobs:
           body_path: dist/RELEASE_NOTES.md
           files: |
             dist/*/*.zip
-            dist/*/report.json
+            dist/reports.json

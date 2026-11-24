@@ -154,6 +154,7 @@ def main() -> int:
         if report["untranslated"]:
             lines.append(f"  - 未翻译字段：{', '.join(report['untranslated'])}")
     (DIST_DIR / "RELEASE_NOTES.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    save_json(DIST_DIR / "reports.json", {"reports": reports, "failures": failures})
 
     print(json.dumps({"reports": reports, "failures": failures}, ensure_ascii=False, indent=2))
     return 0
